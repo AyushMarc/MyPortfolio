@@ -153,7 +153,7 @@ export const SkillsInfo = [
     img: nsutLogo,
     school: "Netaji Subhas University of Technology (NSUT), New Delhi",
     date: "Nov 2022 - August 2026",
-    grade: "5.97 CGPA",
+    grade: "7.61 CGPA",
     desc: "Currently pursuing B.Tech in Computer Science with specialization in Artificial Intelligence. Gained strong foundation in Data Structures, Algorithms, Operating Systems, OOPs, DBMS, and AI-focused courses. Actively involved in technical and research projects, along with society-level responsibilities.",
     degree: "Bachelor of Technology - B.Tech (CSAI)",
   },
