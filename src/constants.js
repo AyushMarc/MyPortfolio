@@ -171,7 +171,7 @@ export const SkillsInfo = [
     img: cbseLogo,
     school: "Shanti Gyan Niketan Sr Sec Public School, New Delhi",
     date: "April 2018 - March 2019",
-    grade: "96%",
+    grade: "89%",
     desc: "Completed Class X under CBSE Board with Science, Maths and Computer Application.",
     degree: "CBSE (Class X) - Science with Computer Application",
   },
