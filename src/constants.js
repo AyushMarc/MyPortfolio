@@ -11,6 +11,8 @@ import salarySyncLogo from "./assets/salarySyncLogo.png";
 
 import cbseLogo from "./assets/cbseLogo.png";
 import nsutLogo from "./assets/nsutLogo.png";
+import neuzifyLogo from "./assets/company_logo/neuzify_logo.png";
+import rocketLogo from "./assets/company_logo/rocket_logo.png";
 import htmlLogo from './assets/tech_logo/html.png';
 import cssLogo from './assets/tech_logo/css.png';
 import sassLogo from './assets/tech_logo/sass.png';
@@ -29,6 +31,7 @@ import expressjsLogo from './assets/tech_logo/express.png';
 import mysqlLogo from './assets/tech_logo/mysql.png';
 import mongodbLogo from './assets/tech_logo/mongodb.png';
 import firebaseLogo from './assets/tech_logo/firebase.png';
+import drizzleLogo from './assets/tech_logo/drizzle.png';
 import cLogo from './assets/tech_logo/c.png';
 import cppLogo from './assets/tech_logo/cpp.png';
 import javaLogo from './assets/tech_logo/java.png';
@@ -73,16 +76,12 @@ export const SkillsInfo = [
     skills: [
       { name: 'HTML', logo: htmlLogo },
       { name: 'CSS', logo: cssLogo },
-      { name: 'SASS', logo: sassLogo },
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'React JS', logo: reactjsLogo },
       
       
       { name: 'Next JS', logo: nextjsLogo },
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
-      
-      
-      { name: 'Bootstrap', logo: bootstrapLogo },
     ],
   },
   {
@@ -93,7 +92,7 @@ export const SkillsInfo = [
       { name: 'Express JS', logo: expressjsLogo },
       { name: 'MySQL', logo: mysqlLogo },
       { name: 'MongoDB', logo: mongodbLogo },
-      { name: 'Firebase', logo: firebaseLogo },
+      { name: 'Drizzle ORM', logo: drizzleLogo },
      
     ],
   },
@@ -118,33 +117,41 @@ export const SkillsInfo = [
       
      
       { name: 'Vercel', logo: vercelLogo },
-      { name: 'Netlify', logo: netlifyLogo },
-      { name: 'Figma', logo: figmaLogo },
+      { name: 'Postman', logo: postmanLogo },
     ],
   },
 ];
 
   export const experiences = [
 
- 
     {
     id: 0,
-    img: nsutLogo , // Or use a local image
-    role: "Artificial Intelligence Research Intern",
-    company: "NSUT, CSE Department",
-    date: "Feb 2024 – April 2024",
-    desc: "Researched Gazelle Herding Optimization algorithms and applied them to real-world optimization problems. Achieved a 30% boost in efficiency and reduced resource usage by 20%. Enhanced exploration and exploitation capabilities using AI, validated on CEC benchmark datasets.",
+    img: neuzifyLogo,
+    role: "Software Developer Intern",
+    company: "Neuzify",
+    date: "May 2025 – July 2025",
+    desc: "Built a real-time collaborative filtering system analyzing 10,000+ users' engagement data and created a responsive dashboard to deliver personalized newsletter recommendations to users.",
     skills: [
+      "React.js",
+      "Tailwind CSS",
       "Python",
-      "MATLAB",
-      "Gazelle Herding Optimization",
-      "AI",
-      "CEC 2014/2017",
-      "Research",
+      "TensorFlow",
+      "scikit-learn",
     ],
     },
-   
-   
+    {
+    id: 1,
+    img: rocketLogo,
+    role: "Full Stack Developer Intern",
+    company: "Rocket Incense",
+    date: "May 2024 – July 2024",
+    desc: "Built and maintained a full-stack e-commerce platform using React.js, Node.js, and Tailwind CSS, delivering product catalog, user authentication, and payment integration features that increased user engagement by 25%, improved transaction speed by 15%, and supported 1,000+ daily active users with zero downtime.",
+    skills: [
+      "React.js",
+      "Tailwind CSS",
+      "Node.js",
+    ],
+    },
   ];
   
   export const education = [
