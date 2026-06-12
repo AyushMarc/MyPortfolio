@@ -40,7 +40,7 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            As a Computer Science and AI undergraduate at NSUT, I’m passionate about applying machine learning to real-world challenges. With hands-on experience in quantum cryptanalysis, image enhancement via GANs, and full-stack development, I thrive on creating impactful, intelligent solutions. I’ve contributed to AI research, led tech-cultural events, and built scalable projects using Python, React, and TensorFlow—driven to innovate where technology meets creativity.
+            As a Computer Science & AI graduate from NSUT, I am passionate about designing and building scalable software systems that create real-world impact. My experience includes full-stack development, AI-powered applications, and research projects, with hands-on expertise in React, Next.js, TypeScript, Node.js, and Python. Having worked on production-grade applications and end-to-end product development, I enjoy solving complex engineering challenges, writing maintainable code, and delivering seamless user experiences while continuously expanding my technical skills.
           </p>
           {/* Resume Button */}
           <a
